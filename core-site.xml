@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<configuration>
+    <property><name>fs.s3a.endpoint</name><value>http://localhost:9000</value></property>
+    <property><name>fs.s3a.access.key</name><value>Don6xbfsbiFWI5dk</value></property>
+    <property><name>fs.s3a.secret.key</name><value>ENV1ucQvR023eWFRnPfiG4j4vVaujaAJ</value></property>
+    <property><name>fs.s3a.path.style.access</name><value>true</value></property>
+    <property><name>fs.s3a.block.size</name><value>512M</value></property>
+    <property><name>fs.s3a.buffer.dir</name><value>${hadoop.tmp.dir}/s3a</value></property>
+    <property><name>fs.s3a.committer.magic.enabled</name><value>false</value></property>
+    <property><name>fs.s3a.committer.name</name><value>directory</value></property>
+    <property><name>fs.s3a.committer.staging.abort.pending.uploads</name><value>true</value></property>
+    <property><name>fs.s3a.committer.staging.conflict-mode</name><value>append</value></property>
+    <property><name>fs.s3a.committer.staging.tmp.path</name><value>/tmp/staging</value></property>
+    <property><name>fs.s3a.committer.staging.unique-filenames</name><value>true</value></property>
+    <property><name>fs.s3a.connection.establish.timeout</name><value>5000</value></property>
+    <property><name>fs.s3a.connection.ssl.enabled</name><value>false</value></property>
+    <property><name>fs.s3a.connection.timeout</name><value>200000</value></property>
+    <property><name>fs.s3a.impl</name><value>org.apache.hadoop.fs.s3a.S3AFileSystem</value></property>
+    <property><name>fs.s3a.committer.threads</name><value>2048</value></property>
+    <property><name>fs.s3a.connection.maximum</name><value>8192</value></property>
+    <property><name>fs.s3a.fast.upload.active.blocks</name><value>2048</value></property>
+    <property><name>fs.s3a.fast.upload.buffer</name><value>disk</value></property>
+    <property><name>fs.s3a.fast.upload</name><value>true</value></property>
+    <property><name>fs.s3a.max.total.tasks</name><value>2048</value></property>
+    <property><name>fs.s3a.multipart.size</name><value>512M</value></property>
+    <property><name>fs.s3a.multipart.threshold</name><value>512M</value></property>
+    <property><name>fs.s3a.socket.recv.buffer</name><value>65536</value></property>
+    <property><name>fs.s3a.socket.send.buffer</name><value>65536</value></property>
+    <property><name>fs.s3a.threads.max</name><value>2048</value></property>
+</configuration>
