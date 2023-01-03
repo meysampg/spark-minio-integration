@@ -1,4 +1,4 @@
-Spark 3.3.2 & MinIO S3 Integration
+Spark 3.2.0 & MinIO S3 Integration
 ==================================
 
 ```
